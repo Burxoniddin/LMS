@@ -1,0 +1,16 @@
+{% extends "learning_logs/base.html" %}
+
+{% block header %}
+    <div class="center">
+        <h1>O'zbekcha LMS tizimi.</h1>
+    </div>
+{% endblock header %}
+
+{% block content %}
+    <h3 align="center">
+        <a href="{% url 'users:register' %}">Ro'yxatdan o'ting </a> va o'zingning o'quv planlaringizni yarating.
+    </h3>
+    <h3 align="center" >
+        O'rganishdan to'xtamang! Biz bilan yuqori marralarni zabt eting.
+    </h3>
+{% endblock content %}

@@ -1,0 +1,8 @@
+dj-database-url
+dj-static
+django==4.0.6
+django-bootstrap3
+gunicorn
+pytz
+static3
+psycopg2
